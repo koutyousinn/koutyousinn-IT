@@ -1,0 +1,7 @@
+package main.java.jp.co.tyou;
+
+public class Day0617 {
+	public static void main(String[] args) {
+		System.out.println(System.currentTimeMillis());
+	}
+}

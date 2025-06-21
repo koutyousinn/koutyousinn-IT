@@ -1,0 +1,11 @@
+public class APP {
+	public static void main(String[] args) {
+		
+		new GameJframe();
+		
+		//new LoginJframe();
+		
+		//new RegisterJframe();
+		
+	}
+}

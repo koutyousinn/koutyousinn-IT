@@ -1,0 +1,27 @@
+package main.java.jp.co.kou;
+
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class APP {
+	public static void main(String[] args) throws IOException {
+		
+		//new GameJframe();
+		
+		//new LoginJframe();
+		
+		//new RegisterJframe();
+		
+		String dir = "C:/work";
+		String file = "test.txt";
+		Path timeFile = Paths.get(dir, args);
+		
+		String extDate = "2025-06-16 09:17:33T00";
+		
+		Files.writeString(timeFile, extDate, Charset.forName("UTF-8"));
+		
+	}
+}

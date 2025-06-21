@@ -1,0 +1,11 @@
+package main.java.jp.co.tyou;
+
+public class Day0617 {
+	public static void main(String[] args) {
+		//long currentTimeMillis = System.currentTimeMillis();
+		Runtime runtime = Runtime.getRuntime();
+		long maxMemory = runtime.maxMemory();
+		System.out.println(maxMemory);
+		
+	}
+}
